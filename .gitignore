@@ -57,8 +57,9 @@ env.bak/
 venv.bak/
 
 # mkdocs documentation
-# TODO: Disable this for gh-pages?
 /site
+# mkdoxy cache for local dev
+/.mkdoxy/
 
 # Sphinx documentation
 docs/_build/
