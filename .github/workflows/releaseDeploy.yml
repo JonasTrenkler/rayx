@@ -52,7 +52,7 @@ jobs:
         shell: pwsh
         run: .\Scripts\setup-cuda.ps1
         env:
-            INPUT_CUDA_VERSION: 12.9.1
+            INPUT_CUDA_VERSION: 13.3.0
 
       - name: Configure CMake (Windows)
         if: matrix.os == 'windows-2025-vs2026'
